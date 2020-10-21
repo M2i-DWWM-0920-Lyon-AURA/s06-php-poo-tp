@@ -6,11 +6,15 @@ Utiliser le fichier **videogames.sql** fourni pour générer une copie de la bas
 
 Ecrire le code PHP permettant de réaliser la connexion avec cette base de données, et la tester avec une requête SQL simple.
 
-## 2. Afficher tous les jeux vidéos
+## 2. Créer des modèles
 
-Au chargement de la page, envoyer une requête SQL permettant de récupérer les données de tous les jeux vidéos. Afficher dynamiquement la liste des jeux en s'inspirant du code HTML écrit en dur.
+Pour chaque table présente dans la base de données, écrire une classe PHP destinée à accueillir les enregistrements sous forme d'objets. Pour chaque modèle, écrire une méthode permettant de récupérer l'ensemble des enregistrements présents dans la table associée.
 
-## 3. Trier les jeux vidéos
+## 3. Afficher tous les jeux vidéos
+
+Dynamiser le modèle de page fourni dans **index.php** afin d'afficher la liste de tous les jeux vidéos présents en base de données.
+
+### Bonus
 
 Lorsque l'on clique sur l'icône de flèche à côté du nom d'une colonne, la liste des jeux vidéos doit apparaître triée en fonction de ce critère.
 
